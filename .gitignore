@@ -1,0 +1,56 @@
+# Thư mục bỏ qua (Các file tạm và file do hệ thống tự sinh ra)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uilds/
+/[Bb]uild/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+
+# Bỏ qua file meta của Asset trừ khi bản thân Asset đó cũng bị bỏ qua
+!/[Aa]ssets/**/*.meta
+
+# Bỏ qua plugin JetBrains Rider tự động sinh ra
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Thư mục cache của Visual Studio và Gradle
+.vs/
+.gradle/
+
+# Các file project và solution do IDE tự sinh ra (Visual Studio, Rider, v.v.)
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Các file meta tự động sinh ra cho các file debug
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# File báo cáo lỗi của Unity
+sysinfo.txt
+
+# Các file Build (Không nên push file build lên git vì chúng rất nặng)
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# Các file hệ thống rác của macOS và Windows
+.DS_Store
+Thumbs.db
